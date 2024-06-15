@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-15 15:46+0000\n"
+"POT-Creation-Date: 2024-06-15 15:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,10 @@ msgstr "Русский"
 #: job/templates/job/main.html:6
 msgid "Job for Danil"
 msgstr "Работа для Данила"
+
+#: job/templates/job/main.html:14
+msgid "Danil is looking for a job"
+msgstr "Данил ищет работу"
 
 #: job/templates/job/main.html:17
 msgid "Hi! My name is Danil, and I'm looking for a job in the IT world."
@@ -91,8 +95,8 @@ msgstr ""
 "библиотеками tensorflow, pytorch и transformers."
 
 #: job/templates/job/main.html:35
-msgid "My most recent pet projects that I have on"
-msgstr "Мои недавние проекты, которые я разместил на"
+msgid "My most recent pet projects that I have on "
+msgstr "Мои недавние проекты, которые я разместил на "
 
 #: job/templates/job/main.html:35
 msgid "my GitHub page"
@@ -128,7 +132,7 @@ msgstr " проект по классификации изображений с 
 
 #: job/templates/job/main.html:47
 msgid "My NLP experiment"
-msgstr "Мой NLP эксперимент."
+msgstr "Мой NLP эксперимент"
 
 #: job/templates/job/main.html:47
 msgid ""
