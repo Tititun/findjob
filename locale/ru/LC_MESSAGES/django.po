@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-14 16:28+0700\n"
+"POT-Creation-Date: 2024-06-15 15:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,139 @@ msgstr "Русский"
 #: job/templates/job/main.html:6
 msgid "Job for Danil"
 msgstr "Работа для Данила"
+
+#: job/templates/job/main.html:17
+msgid "Hi! My name is Danil, and I'm looking for a job in the IT world."
+msgstr "Приветствую! Меня зовут Данил и я ищу работу в мире IT."
+
+#: job/templates/job/main.html:19
+msgid "My professional skills include:"
+msgstr "Мои профссиональные навыки:"
+
+#: job/templates/job/main.html:21
+msgid "Programing languages - Python, JavaScript"
+msgstr "Языки программирования - Python, JavaScript"
+
+#: job/templates/job/main.html:22
+msgid "Web technologies - HTML, CSS"
+msgstr "Web-технологии - HTML, CSS"
+
+#: job/templates/job/main.html:23
+msgid "SQL - CRUD-operations, window queries, joins etc."
+msgstr "SQL - CRUD-операции, window - запросы, join и т.д."
+
+#: job/templates/job/main.html:24
+msgid "Docker - container management, writing dockerfiles, docker-compose"
+msgstr ""
+"Docker - управление контейнерами, составление докерфайлов, работа с docker-"
+"compose"
+
+#: job/templates/job/main.html:25
+msgid "Git - all the basic operations"
+msgstr "Git - все базовые операции"
+
+#: job/templates/job/main.html:27
+msgid "Python libraries I have most experience with:"
+msgstr "Библиотеки Python, с которыми я больше всего имею опыта:"
+
+#: job/templates/job/main.html:29
+msgid "Data handling - pandas, numpy, matplotlib"
+msgstr "Работы с даными данными - pandas, numpy, matplotlib"
+
+#: job/templates/job/main.html:30
+msgid "Web backend - Django"
+msgstr "Web-бэкэнд - Django"
+
+#: job/templates/job/main.html:31
+msgid "Web scraping - requests, selenium, beautifulsoup"
+msgstr "Web-скрэйпинг - requests, selenium, beautifulsoup"
+
+#: job/templates/job/main.html:32
+msgid "Desktop applications - PyQT"
+msgstr "Приложения для компьютера - PyQT"
+
+#: job/templates/job/main.html:34
+msgid ""
+"Apart from that I'm highly interested in machine learning and have some "
+"experience with tensorflow, pytorch and transformers."
+msgstr ""
+"Кроме того, я очень заинтересован в машинном обучении и имею немного опыта с "
+"библиотеками tensorflow, pytorch и transformers."
+
+#: job/templates/job/main.html:35
+msgid "My most recent pet projects that I have on"
+msgstr "Мои недавние проекты, которые я разместил на"
+
+#: job/templates/job/main.html:35
+msgid "my GitHub page"
+msgstr "моей странице на GitHub"
+
+#: job/templates/job/main.html:38
+msgid "a project to organize vocabulary cards from your Kindle."
+msgstr "проект для организации изучаемых слов с вашего Kindle-устройства."
+
+#: job/templates/job/main.html:41
+msgid "This simple website"
+msgstr "Этот простой вебсайт"
+
+#: job/templates/job/main.html:41
+msgid "a basic website built with Django."
+msgstr "базовый вебсайт на Django."
+
+#: job/templates/job/main.html:44
+msgid "Image classification project"
+msgstr "Проект по классификации изображений"
+
+#: job/templates/job/main.html:44
+msgid "my little"
+msgstr "мой маленький"
+
+#: job/templates/job/main.html:44
+msgid "university"
+msgstr "университетский"
+
+#: job/templates/job/main.html:44
+msgid " project for image classification, built with tensorflow."
+msgstr " проект по классификации изображений с использованием tensorflow."
+
+#: job/templates/job/main.html:47
+msgid "My NLP experiment"
+msgstr "Мой NLP эксперимент."
+
+#: job/templates/job/main.html:47
+msgid ""
+"my modest attempt at multilingual classification of supermarket products."
+msgstr ""
+"моя скромная попытка по классификации продуктов из супермаркетов на многих "
+"языках мира."
+
+#: job/templates/job/main.html:50
+msgid ""
+"Apart from that I have much experience in web-scraping, and also built a "
+"couple of Telegram bots."
+msgstr ""
+"Кроме этого, я имею опыт в web-скрэйпинге, а также построил пару телеграм "
+"ботов."
+
+#: job/templates/job/main.html:51
+msgid "You can read more on my education and previous experience "
+msgstr "Вы можете прочитать больше о моих образовании и опыте "
+
+#: job/templates/job/main.html:51
+msgid "here"
+msgstr "здесь"
+
+#: job/templates/job/main.html:52
+msgid "If you have any job you can offer me, please contact me:"
+msgstr "Если у Вас есть работа для меня, пожалуйста, свяжитесь со мной:"
+
+#: job/templates/job/main.html:53
+msgid "my telegram"
+msgstr "мой телеграм"
+
+#: job/templates/job/main.html:54
+msgid "my email"
+msgstr "моя почта"
 
 #: venv/lib/python3.10/site-packages/django/contrib/messages/apps.py:16
 msgid "Messages"
