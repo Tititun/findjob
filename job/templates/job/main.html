@@ -7,55 +7,47 @@
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-1 col-md-2"></div>
-        <div class="col-sm-10 col-md-8 p-4 d-flex flex-column align-items-center">
-            <h3 class="mb-3">{% trans "Danil is looking for a job" %}</h3>
-            <div class="d-flex flex-column">
-                <p>
-                    {% trans "Hi! My name is Danil, and I'm looking for a job in the IT world." %}
-                </p>
-                <p>{% trans "My professional skills include:" %}</p>
-                <ul>
-                    <li class="mb-1">{% trans "Programing languages - Python, JavaScript" %}</li>
-                    <li class="mb-1">{% trans "Web technologies - HTML, CSS" %}</li>
-                    <li class="mb-1">{% trans "SQL - CRUD-operations, window queries, joins etc." %}</li>
-                    <li class="mb-1">{% trans "Docker - container management, writing dockerfiles, docker-compose" %}</li>
-                    <li class="mb-1">{% trans "Git - all the basic operations" %}</li>
-                </ul>
-                <p>{% trans "Python libraries I have most experience with:" %}</p>
-                <ul>
-                    <li class="mb-1">{% trans "Data handling - pandas, numpy, matplotlib" %}</li>
-                    <li class="mb-1">{% trans "Web backend - Django" %}</li>
-                    <li class="mb-1">{% trans "Web scraping - requests, selenium, beautifulsoup" %}</li>
-                    <li class="mb-1">{% trans "Desktop applications - PyQT" %}</li>
-                </ul>
-                <p>{% trans "Apart from that I'm highly interested in machine learning and have some experience with tensorflow, pytorch and transformers." %}<br>
-                {% trans "My most recent pet projects that I have on " %}<a href="https://github.com/Tititun?tab=repositories">{% trans "my GitHub page" %}</a>:</p>
-                <ul>
-                    <li class="mb-1">
-                        <a href="#">Vocabulary builder</a> - {% trans "a project to organize vocabulary cards from your Kindle." %}
-                    </li>
-                    <li class="mb-1">
-                        <a href="#">{% trans "This simple website" %}</a> - {% trans "a basic website built with Django." %}
-                    </li>
-                    <li class="mb-1">
-                        <a href="#">{% trans "Image classification project" %}</a> - {% trans "my little" %} <a href="#">{% trans "university" %}</a>{% trans " project for image classification, built with tensorflow." %}
-                    </li>
-                    <li class="mb-1">
-                        <a href="#">{% trans "My NLP experiment" %}</a> - {% trans "my modest attempt at multilingual classification of supermarket products." %}
-                    </li>
-                </ul>
-                <p>{% trans "Apart from that I have much experience in web-scraping, and also built a couple of Telegram bots." %}<br>
-                {% trans "You can read more on my education and previous experience " %}<a href="#">{% trans "here" %}</a></p>
-                <p>{% trans "If you have any job you can offer me, please contact me:" %}</p>
-                <a class="mb-1" href="https://t.me/Tititun"><img class="me-1" height="25" src="{% static '/job/images/telegram.jpeg' %}">{% trans "my telegram" %}</a>
-                <a href="mailto:vinniopo@mail.ru"><img class="me-1" height="25" src="{% static '/job/images/mail.png' %}">{% trans "my email" %}</a>
-            </div>
-
-        </div>
-        <div class="col-sm-1 col-md-2"></div>
+    <h3 class="mb-3">{% trans "Danil is looking for a job" %}</h3>
+    <div class="d-flex flex-column">
+        <p>
+            {% trans "Hi! My name is Danil, and I'm looking for a job in the IT world." %}
+        </p>
+        <p>{% trans "My professional skills include:" %}</p>
+        <ul>
+            <li class="mb-1">{% trans "Programing languages - Python, JavaScript" %}</li>
+            <li class="mb-1">{% trans "Web technologies - HTML, CSS" %}</li>
+            <li class="mb-1">{% trans "SQL - CRUD-operations, window queries, joins etc." %}</li>
+            <li class="mb-1">{% trans "Docker - container management, writing dockerfiles, docker-compose" %}</li>
+            <li class="mb-1">{% trans "Git - all the basic operations" %}</li>
+        </ul>
+        <p>{% trans "Python libraries I have most experience with:" %}</p>
+        <ul>
+            <li class="mb-1">{% trans "Data handling - pandas, numpy, matplotlib" %}</li>
+            <li class="mb-1">{% trans "Web backend - Django" %}</li>
+            <li class="mb-1">{% trans "Web scraping - requests, selenium, beautifulsoup" %}</li>
+            <li class="mb-1">{% trans "Desktop applications - PyQT" %}</li>
+        </ul>
+        <p>{% trans "Apart from that I'm highly interested in machine learning and have some experience with tensorflow, pytorch and transformers." %}<br>
+        {% trans "My most recent pet projects that I have on " %}<a href="https://github.com/Tititun?tab=repositories">{% trans "my GitHub page" %}</a>:</p>
+        <ul>
+            <li class="mb-1">
+                <a href="{% url "job:projects" "vocabulary_builder" %}">Vocabulary builder</a> - {% trans "a project to organize vocabulary cards from your Kindle." %}
+            </li>
+            <li class="mb-1">
+                <a href="#">{% trans "This simple website" %}</a> - {% trans "a basic website built with Django." %}
+            </li>
+            <li class="mb-1">
+                <a href="#">{% trans "Image classification project" %}</a> - {% trans "my little" %} <a href="#">{% trans "university" %}</a>{% trans " project for image classification, built with tensorflow." %}
+            </li>
+            <li class="mb-1">
+                <a href="#">{% trans "My NLP experiment" %}</a> - {% trans "my modest attempt at multilingual classification of supermarket products." %}
+            </li>
+        </ul>
+        <p>{% trans "Apart from that I have much experience in web-scraping, and also built a couple of Telegram bots." %}<br>
+        {% trans "You can read more on my education and previous experience " %}<a href="#">{% trans "here" %}</a></p>
+        <p>{% trans "If you have any job you can offer me, please contact me:" %}</p>
+        <a class="mb-1" href="https://t.me/Tititun"><img class="me-1" height="25" src="{% static '/job/images/telegram.jpeg' %}">{% trans "my telegram" %}</a>
+        <a href="mailto:vinniopo@mail.ru"><img class="me-1" height="25" src="{% static '/job/images/mail.png' %}">{% trans "my email" %}</a>
     </div>
-</div>
+
 {% endblock %}
