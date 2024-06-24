@@ -1,10 +1,39 @@
-{% extends 'job/base.html' %}
+{% extends 'job/projects/projects_base.html' %}
 {% load i18n %}
 {% load static %}
 
 {% block title %}
-{% trans "Vocabulary builder" %}
+Vocabulary builder
 {% endblock %}
 
-{% block content %}
+{% block path %}
+/projects/vocabulary_builder
+{% endblock %}
+
+{% block project_title %}
+  Vocabulary builder
+{% endblock %}
+
+{% block project_content %}
+  <p>
+    <a class="mb-1" href="https://github.com/Tititun/vocbuilder"><img class="me-1" height="25" src="{% static '/job/images/github.png' %}"></a>
+    {% trans "This website is located at " %}
+    <a href="https://vocab-cards.online/">vocab-cards.online</a>
+    {% trans "is built with the following techologies:" %}
+    <ul>
+      <li>Python - Django, Django REST framework</li>
+      <li>JavaScript - React</li>
+      <li>Web: HTML, CSS ({% trans "primarily, Bootstrap library" %})</li>
+      <li>{% trans "Database: MySQL" %}</li>
+      <li>{% trans "Deployment: Docker, docker-compose" %}</li>
+    </ul>
+  </p>
+  <p>
+    {% trans "It is a simple website that is designed to extract vocabulary from a Kindle device. The tutorial is located at " %}
+    <a href="https://vocab-cards.online/about">How it works</a>.<br>
+    {% trans "It uses web scraping to fetch definitions from online dictionaries and present the results in a convinient form of cards, with an option to download the data in csv/tsv formats." %}
+    <br>
+    {% trans "Obviously, there is a space for improvements: I plan to add telegram bot for queezes, add more languages, add social media links etc." %}
+  </p>
+  <img class="example-image" src="{% static "job/images/vocab_cards.png" %}">
 {% endblock %}

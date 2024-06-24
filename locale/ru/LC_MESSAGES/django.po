@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-15 15:50+0000\n"
+"POT-Creation-Date: 2024-06-24 02:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,61 +32,61 @@ msgstr "Русский"
 msgid "Job for Danil"
 msgstr "Работа для Данила"
 
-#: job/templates/job/main.html:14
+#: job/templates/job/main.html:10
 msgid "Danil is looking for a job"
 msgstr "Данил ищет работу"
 
-#: job/templates/job/main.html:17
+#: job/templates/job/main.html:13
 msgid "Hi! My name is Danil, and I'm looking for a job in the IT world."
 msgstr "Приветствую! Меня зовут Данил и я ищу работу в мире IT."
 
-#: job/templates/job/main.html:19
+#: job/templates/job/main.html:15
 msgid "My professional skills include:"
 msgstr "Мои профссиональные навыки:"
 
-#: job/templates/job/main.html:21
+#: job/templates/job/main.html:17
 msgid "Programing languages - Python, JavaScript"
 msgstr "Языки программирования - Python, JavaScript"
 
-#: job/templates/job/main.html:22
+#: job/templates/job/main.html:18
 msgid "Web technologies - HTML, CSS"
 msgstr "Web-технологии - HTML, CSS"
 
-#: job/templates/job/main.html:23
+#: job/templates/job/main.html:19
 msgid "SQL - CRUD-operations, window queries, joins etc."
 msgstr "SQL - CRUD-операции, window - запросы, join и т.д."
 
-#: job/templates/job/main.html:24
+#: job/templates/job/main.html:20
 msgid "Docker - container management, writing dockerfiles, docker-compose"
 msgstr ""
 "Docker - управление контейнерами, составление докерфайлов, работа с docker-"
 "compose"
 
-#: job/templates/job/main.html:25
+#: job/templates/job/main.html:21
 msgid "Git - all the basic operations"
 msgstr "Git - все базовые операции"
 
-#: job/templates/job/main.html:27
+#: job/templates/job/main.html:23
 msgid "Python libraries I have most experience with:"
 msgstr "Библиотеки Python, с которыми я больше всего имею опыта:"
 
-#: job/templates/job/main.html:29
+#: job/templates/job/main.html:25
 msgid "Data handling - pandas, numpy, matplotlib"
 msgstr "Работы с даными данными - pandas, numpy, matplotlib"
 
-#: job/templates/job/main.html:30
+#: job/templates/job/main.html:26
 msgid "Web backend - Django"
 msgstr "Web-бэкэнд - Django"
 
-#: job/templates/job/main.html:31
+#: job/templates/job/main.html:27
 msgid "Web scraping - requests, selenium, beautifulsoup"
 msgstr "Web-скрэйпинг - requests, selenium, beautifulsoup"
 
-#: job/templates/job/main.html:32
+#: job/templates/job/main.html:28
 msgid "Desktop applications - PyQT"
 msgstr "Приложения для компьютера - PyQT"
 
-#: job/templates/job/main.html:34
+#: job/templates/job/main.html:30
 msgid ""
 "Apart from that I'm highly interested in machine learning and have some "
 "experience with tensorflow, pytorch and transformers."
@@ -94,54 +94,54 @@ msgstr ""
 "Кроме того, я очень заинтересован в машинном обучении и имею немного опыта с "
 "библиотеками tensorflow, pytorch и transformers."
 
-#: job/templates/job/main.html:35
+#: job/templates/job/main.html:31
 msgid "My most recent pet projects that I have on "
 msgstr "Мои недавние проекты, которые я разместил на "
 
-#: job/templates/job/main.html:35
+#: job/templates/job/main.html:31
 msgid "my GitHub page"
 msgstr "моей странице на GitHub"
 
-#: job/templates/job/main.html:38
+#: job/templates/job/main.html:34
 msgid "a project to organize vocabulary cards from your Kindle."
 msgstr "проект для организации изучаемых слов с вашего Kindle-устройства."
 
-#: job/templates/job/main.html:41
+#: job/templates/job/main.html:37
 msgid "This simple website"
 msgstr "Этот простой вебсайт"
 
-#: job/templates/job/main.html:41
+#: job/templates/job/main.html:37
 msgid "a basic website built with Django."
 msgstr "базовый вебсайт на Django."
 
-#: job/templates/job/main.html:44
+#: job/templates/job/main.html:40
 msgid "Image classification project"
 msgstr "Проект по классификации изображений"
 
-#: job/templates/job/main.html:44
+#: job/templates/job/main.html:40
 msgid "my little"
 msgstr "мой маленький"
 
-#: job/templates/job/main.html:44
+#: job/templates/job/main.html:40
 msgid "university"
 msgstr "университетский"
 
-#: job/templates/job/main.html:44
+#: job/templates/job/main.html:40
 msgid " project for image classification, built with tensorflow."
 msgstr " проект по классификации изображений с использованием tensorflow."
 
-#: job/templates/job/main.html:47
+#: job/templates/job/main.html:43
 msgid "My NLP experiment"
 msgstr "Мой NLP эксперимент"
 
-#: job/templates/job/main.html:47
+#: job/templates/job/main.html:43
 msgid ""
 "my modest attempt at multilingual classification of supermarket products."
 msgstr ""
 "моя скромная попытка по классификации продуктов из супермаркетов на многих "
 "языках мира."
 
-#: job/templates/job/main.html:50
+#: job/templates/job/main.html:46
 msgid ""
 "Apart from that I have much experience in web-scraping, and also built a "
 "couple of Telegram bots."
@@ -149,25 +149,64 @@ msgstr ""
 "Кроме этого, я имею опыт в web-скрэйпинге, а также построил пару телеграм "
 "ботов."
 
-#: job/templates/job/main.html:51
+#: job/templates/job/main.html:47
 msgid "You can read more on my education and previous experience "
 msgstr "Вы можете прочитать больше о моих образовании и опыте "
 
-#: job/templates/job/main.html:51
+#: job/templates/job/main.html:47
 msgid "here"
 msgstr "здесь"
 
-#: job/templates/job/main.html:52
+#: job/templates/job/main.html:48
 msgid "If you have any job you can offer me, please contact me:"
 msgstr "Если у Вас есть работа для меня, пожалуйста, свяжитесь со мной:"
 
-#: job/templates/job/main.html:53
+#: job/templates/job/main.html:49
 msgid "my telegram"
 msgstr "мой телеграм"
 
-#: job/templates/job/main.html:54
+#: job/templates/job/main.html:50
 msgid "my email"
 msgstr "моя почта"
+
+#: job/templates/job/projects/vocabulary_builder.html:16
+msgid "This website is located at "
+msgstr "Этот вебсайт, расположенный по адресу "
+
+#: job/templates/job/projects/vocabulary_builder.html:18
+msgid "is built with the following techologies:"
+msgstr "построен с ипользованием следующих технологий:"
+
+#: job/templates/job/projects/vocabulary_builder.html:22
+msgid "primarily, Bootstrap library"
+msgstr "в основном, библиотека Bootstrap"
+
+#: job/templates/job/projects/vocabulary_builder.html:23
+msgid "Database: MySQL"
+msgstr "База данных: MySQL"
+
+#: job/templates/job/projects/vocabulary_builder.html:24
+msgid "Deployment: Docker, docker-compose"
+msgstr "Развертывание: Docker, docker-compose"
+
+#: job/templates/job/projects/vocabulary_builder.html:28
+msgid ""
+"It is a simple website that is designed to extract vocabulary from a Kindle "
+"device. The tutorial is located at "
+msgstr "Этот простой вебсайт создан для извлечения искомых слов с устройства Kindle. Руководство размещено по адресу "
+
+#: job/templates/job/projects/vocabulary_builder.html:30
+msgid ""
+"It uses web scraping to fetch definitions from online dictionaries and "
+"present the results in a convinient form of cards, with an option to "
+"download the data in csv/tsv formats."
+msgstr "Этот вебсайт использует веб-скрэйпинг для поиска определений в онлайн-словарях, и представляет результаты в удобном формате карт, с опцией сохранить данные в формате csv/tsv."
+
+#: job/templates/job/projects/vocabulary_builder.html:32
+msgid ""
+"Obviously, there is a space for improvements: I plan to add telegram bot for "
+"queezes, add more languages, add social media links etc."
+msgstr "Конечно, имеется большое пространство для улучшений: планируется добавить Телеграм-бота для проведения опросов, добавить больше языков, ссылки на социальные сети и т.д."
 
 #: venv/lib/python3.10/site-packages/django/contrib/messages/apps.py:16
 msgid "Messages"
@@ -1382,3 +1421,14 @@ msgstr ""
 #: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "                        <a href=\"#\">This simple website</a> - a basic "
+#~ "website built with Django.\n"
+#~ "                        "
+#~ msgstr ""
+#~ "\n"
+#~ "                        <a href=\"#\">Этот вебсайт</a> - базовый сайт на "
+#~ "Django.\n"
+#~ "                        "

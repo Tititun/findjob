@@ -3,3 +3,7 @@
     top: 5px;
     right: 5px;
 }
+
+.example-image {
+    max-width: 100%;
+}
