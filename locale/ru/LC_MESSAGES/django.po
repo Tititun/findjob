@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 05:06+0000\n"
+"POT-Creation-Date: 2024-06-24 07:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,13 +28,98 @@ msgstr "Английский"
 msgid "Russian"
 msgstr "Русский"
 
+#: job/templates/job/contacts.html:5
+#, fuzzy
+#| msgid "my telegram"
+msgid "Telegram"
+msgstr "Телеграм"
+
+#: job/templates/job/contacts.html:6
+#, fuzzy
+#| msgid "my email"
+msgid "Email"
+msgstr "Почта"
+
+#: job/templates/job/education.html:6
+msgid "Education & Experience"
+msgstr "Образование и опыт"
+
+#: job/templates/job/education.html:17
+msgid "My Education and Experience"
+msgstr "Мои образование и опыт"
+
+#: job/templates/job/education.html:19
+msgid ""
+"I'm currently studying at Moscow Witte University, my educational program is "
+"Applied computer science, and I'll graduate in 2025."
+msgstr "В настоящий момент я прохожу заочное обучение в Московском Университете Имени Витте по образовательной программе прикладная информатика, год окончания обучения - 2025."
+
+#: job/templates/job/education.html:22
+msgid ""
+"I started my path in IT in 2020 when I decided to learn Python. Later I "
+"became interested in web-development - HTML, CSS and JavaScript. My first "
+"projects were web-scrapers, and I worked on several projects for clients "
+"from freelancer.com and youdo.com."
+msgstr "Я начал свой путь в IT в 2020, когда я решил изучать Python. После этого я заинтересовался в web-разработке - HTML, CSS и JavaScript. Мои первые проекты были web-скрейперами, и я выполнил несколько заданий для клиентов с freelancer.com и youdo.com."
+
+#: job/templates/job/education.html:25
+msgid "I participated in two serious projects since 2020:"
+msgstr "С 2020 года я участвовал в двух серьезных проектах:"
+
+#: job/templates/job/education.html:28
+msgid ""
+"My first serious job in IT was for <a href='https://www.econdb.com/'>econdb."
+"com</a> - a data service for economic indicators. I've been working on web-"
+"scrapers and data analytics tools for this company since 2021. "
+msgstr "Моя первая серьезная работа в IT была на <a href='https://www.econdb.com/'>econdb.com</a> - дата-сервис, работающий с экономическими индикаторами. Я работал над web-скрейперами и аналитическими инструментами для этой компании с 2021 года."
+
+#: job/templates/job/education.html:29
+msgid ""
+"In 2022 I worked for a year on <a href='https://www.qarmatechnology."
+"com/'>qarmatechnology project</a> - a company that implements Artificial "
+"Intelligence in stocks trading. My area of expertise was Django backend "
+"development."
+msgstr "В 2022 я весь год работал на <a href='https://www.qarmatechnology.com/'>qarmatechnology project</a> - компанию, применяющую искуственный интелект для торговли на бирже. Моей областью ответственности была работа над Django backend."
+
+#: job/templates/job/education.html:32
+msgid ""
+"My first education is a medical biochemistry bachelor's degree. I graduated "
+"from Siberian State Medical University in 2013 and worked in two hospitals "
+"in clinical laboratories between 2013 and 2020. In 2020 I decided to switch "
+"to programing and I love it ever since."
+msgstr "Мое первое образование - это медицинская биохимия. Я закончил Сибирский Государственный Медицинский Уиверситет в 2013 году и работал в клинических лабораториях в двух больницах между 2013 и 2020. В 2020 я решил переключиться на программирование, и с тех пор это мое любимое увлечение."
+
+#: job/templates/job/education.html:35
+msgid ""
+"In 2017 I passed IELTS exam with an average band of 8.0. I use English in my "
+"everyday life, I read programing literature , watch tutorials, read "
+"documentation in English."
+msgstr "В 2017 я сдал экзамен IELTS по англискому со средним баллом 8.0. Я использую англиский в повседневной жизни, в том числе читаю учебную литературу, смотрю обучающие видео и читаю документацию на английском."
+
+#: job/templates/job/education.html:36
+msgid ""
+"My favorite directions in programing - data-analysis, web-development, "
+"machine learning (I don't have much experience in the latter though)."
+msgstr "Мои любимые направления в программировании - это анализ данных, web-разработка и машинное обучение (хотя мой опыт в последнем довольно ограничен)."
+
+#: job/templates/job/education.html:39
+msgid ""
+"I am looking for a beginner-level job. I can work remotely or move to the "
+"place of work at any time."
+msgstr "Я ищу работ уначального уровня. Я могу работать удаленно или переехать к месту работы в любое время."
+
+#: job/templates/job/education.html:40
+msgid "If you have any suggestions for me, I would be glad to hear of it! Please "
+"contact me:"
+msgstr "Если у Вас есть предложения, я рад услышать об этом! Пожалуйста, свяжитесь со мной:"
+
 #: job/templates/job/main.html:6
 msgid "Job for Danil"
 msgstr "Работа для Данила"
 
 #: job/templates/job/main.html:12
 msgid "Danil is looking for a job"
-msgstr "Данил ищет работу"
+msgstr "Данил в поисках работы"
 
 #: job/templates/job/main.html:15
 msgid "Hi! My name is Danil, and I'm looking for a job in the IT world."
@@ -66,27 +151,31 @@ msgstr ""
 msgid "Git - all the basic operations"
 msgstr "Git - все базовые операции"
 
-#: job/templates/job/main.html:25
+#: job/templates/job/main.html:24
+msgid "English - I scored 8.0 in IELTS exam."
+msgstr "Английский язык - я обладаю сертификатом IELTS со средней оценкой 8.0."
+
+#: job/templates/job/main.html:26
 msgid "Python libraries I have most experience with:"
 msgstr "Библиотеки Python, с которыми я больше всего имею опыта:"
 
-#: job/templates/job/main.html:27
+#: job/templates/job/main.html:28
 msgid "Data handling - pandas, numpy, matplotlib"
 msgstr "Работы с даными данными - pandas, numpy, matplotlib"
 
-#: job/templates/job/main.html:28
+#: job/templates/job/main.html:29
 msgid "Web backend - Django"
 msgstr "Web-бэкэнд - Django"
 
-#: job/templates/job/main.html:29
+#: job/templates/job/main.html:30
 msgid "Web scraping - requests, selenium, beautifulsoup"
 msgstr "Web-скрэйпинг - requests, selenium, beautifulsoup"
 
-#: job/templates/job/main.html:30
+#: job/templates/job/main.html:31
 msgid "Desktop applications - PyQT"
 msgstr "Приложения для компьютера - PyQT"
 
-#: job/templates/job/main.html:32
+#: job/templates/job/main.html:33
 msgid ""
 "Apart from that I'm highly interested in machine learning and have some "
 "experience with tensorflow, pytorch and transformers."
@@ -94,55 +183,55 @@ msgstr ""
 "Кроме того, я очень заинтересован в машинном обучении и имею немного опыта с "
 "библиотеками tensorflow, pytorch и transformers."
 
-#: job/templates/job/main.html:33
+#: job/templates/job/main.html:34
 msgid "My most recent pet projects that I have on "
 msgstr "Мои недавние проекты, которые я разместил на "
 
-#: job/templates/job/main.html:33
+#: job/templates/job/main.html:34
 msgid "my GitHub page"
 msgstr "моей странице на GitHub"
 
-#: job/templates/job/main.html:36
+#: job/templates/job/main.html:37
 msgid "a project to organize vocabulary cards from your Kindle."
 msgstr "проект для организации изучаемых слов с вашего Kindle-устройства."
 
-#: job/templates/job/main.html:39
+#: job/templates/job/main.html:40
 msgid "This simple website"
 msgstr "Этот простой вебсайт"
 
-#: job/templates/job/main.html:39
+#: job/templates/job/main.html:40
 msgid "a basic website built with Django."
 msgstr "базовый вебсайт на Django."
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 #: job/templates/job/projects/image_classification.html:14
 msgid "Image classification project"
 msgstr "Проект по классификации изображений"
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 msgid "my little"
 msgstr "мой маленький"
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 msgid "university"
 msgstr "университетский"
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 msgid " project for image classification, built with tensorflow."
 msgstr " проект по классификации изображений с использованием tensorflow."
 
-#: job/templates/job/main.html:45
+#: job/templates/job/main.html:46
 msgid "My NLP experiment"
 msgstr "Мой NLP эксперимент"
 
-#: job/templates/job/main.html:45
+#: job/templates/job/main.html:46
 msgid ""
 "my modest attempt at multilingual classification of supermarket products."
 msgstr ""
 "моя скромная попытка по классификации продуктов из супермаркетов на многих "
 "языках мира."
 
-#: job/templates/job/main.html:48
+#: job/templates/job/main.html:49
 msgid ""
 "Apart from that I have much experience in web-scraping, and also built a "
 "couple of Telegram bots."
@@ -150,25 +239,17 @@ msgstr ""
 "Кроме этого, я имею опыт в web-скрэйпинге, а также построил пару телеграм "
 "ботов."
 
-#: job/templates/job/main.html:49
+#: job/templates/job/main.html:50
 msgid "You can read more on my education and previous experience "
 msgstr "Вы можете прочитать больше о моих образовании и опыте "
 
-#: job/templates/job/main.html:49
+#: job/templates/job/main.html:50
 msgid "here"
 msgstr "здесь"
 
-#: job/templates/job/main.html:50
+#: job/templates/job/main.html:51
 msgid "If you have any job you can offer me, please contact me:"
 msgstr "Если у Вас есть работа для меня, пожалуйста, свяжитесь со мной:"
-
-#: job/templates/job/main.html:51
-msgid "my telegram"
-msgstr "мой телеграм"
-
-#: job/templates/job/main.html:52
-msgid "my email"
-msgstr "моя почта"
 
 #: job/templates/job/projects/image_classification.html:6
 #, fuzzy
@@ -276,7 +357,10 @@ msgstr "NLP проект"
 msgid ""
 "This ongoing project is an attempt to build a NLP classifier for supermarket "
 "products using their title. The following techologies have been used:"
-msgstr "Этот текущий проект представляет собой попытку построить NLP-классификатор для продуктов из супермаркетов, используя их название. Используются следующие технологии:"
+msgstr ""
+"Этот текущий проект представляет собой попытку построить NLP-классификатор "
+"для продуктов из супермаркетов, используя их название. Используются "
+"следующие технологии:"
 
 #: job/templates/job/projects/nlp_experiment.html:24
 #, fuzzy
@@ -297,14 +381,25 @@ msgid ""
 "famous multilingual model trained on more than 100 languages. I fine-tuned "
 "this model for the task at hand. I plan to add image, brand and weight/"
 "volume information to my ensemble model to achieve better results."
-msgstr "Главной сложностью этого проекта является то, что данные представлены более чем на 20 языках, в связи с чем была использована известная модель, натренированная на более чем 100 языках - XLMRoberta. Я провел тонкую настройку (fine-tuned) эту модель для поставленной задачи. В дальнейшем я планирую добавить к входным данным информацию о бренде, изображение, вес/объем товара к существующей модели с использованием ансамблевых методов для достижения лучших результатов."
+msgstr ""
+"Главной сложностью этого проекта является то, что данные представлены более "
+"чем на 20 языках, в связи с чем была использована известная модель, "
+"натренированная на более чем 100 языках - XLMRoberta. Я провел тонкую "
+"настройку (fine-tuned) эту модель для поставленной задачи. В дальнейшем я "
+"планирую добавить к входным данным информацию о бренде, изображение, вес/"
+"объем товара к существующей модели с использованием ансамблевых методов для "
+"достижения лучших результатов."
 
 #: job/templates/job/projects/nlp_experiment.html:30
 msgid ""
 "An important part of this project is a data cleaner tool which is used for "
 "filtering, cleaning and labeling the data. This is a web tool built with "
 "Django. Its interface is shown on the picture below:"
-msgstr "Важной частью этого проекта является инструмент для очистки данных, который используется для фильтрации, очистски и обозначения данных. Этот web-инструмент создан с использованием Django, ео интерфейс представлен на изображении ниже:"
+msgstr ""
+"Важной частью этого проекта является инструмент для очистки данных, который "
+"используется для фильтрации, очистски и обозначения данных. Этот web-"
+"инструмент создан с использованием Django, ео интерфейс представлен на "
+"изображении ниже:"
 
 #: job/templates/job/projects/vocabulary_builder.html:20
 msgid "This website is located at "

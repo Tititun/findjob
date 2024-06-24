@@ -1,0 +1,43 @@
+{% extends 'job/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+{% trans "Education & Experience" %}
+{% endblock %}
+
+{% block path %}/education{% endblock %}
+
+{% block content %}
+  <a class="btn btn-link me-auto" type="button" href="{% url "job:main" %}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-arrow-left fs-3" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+    </svg>
+  </a>
+  <h3 class="mb-3">{% trans "My Education and Experience" %}</h3>
+  <p>
+    {% trans "I'm currently studying at Moscow Witte University, my educational program is Applied computer science, and I'll graduate in 2025." %}
+  </p>
+  <p>  
+    {% trans "I started my path in IT in 2020 when I decided to learn Python. Later I became interested in web-development - HTML, CSS and JavaScript. My first projects were web-scrapers, and I worked on several projects for clients from freelancer.com and youdo.com." %}
+  </p>
+  <p class="align-self-start">
+    {% trans "I participated in two serious projects since 2020:" %}
+  </p>
+    <ul>
+      <li>{% trans "My first serious job in IT was for <a href='https://www.econdb.com/'>econdb.com</a> - a data service for economic indicators. I've been working on web-scrapers and data analytics tools for this company since 2021. " %}</li>
+      <li>{% trans "In 2022 I worked for a year on <a href='https://www.qarmatechnology.com/'>qarmatechnology project</a> - a company that implements Artificial Intelligence in stocks trading. My area of expertise was Django backend development." %}</li>
+    </ul>
+  <p>
+    {% trans "My first education is a medical biochemistry bachelor's degree. I graduated from Siberian State Medical University in 2013 and worked in two hospitals in clinical laboratories between 2013 and 2020. In 2020 I decided to switch to programing and I love it ever since." %}
+  </p> 
+  <p>
+    {% trans "In 2017 I passed IELTS exam with an average band of 8.0. I use English in my everyday life, I read programing literature , watch tutorials, read documentation in English." %}
+    {% trans "My favorite directions in programing - data-analysis, web-development, machine learning (I don't have much experience in the latter though)." %}
+  </p>
+  <p>
+    {% trans "I am looking for a beginner-level job. I can work remotely or move to the place of work at any time." %}
+    {% trans "If you have any suggestions for me, I would be glad to hear of it! Please contact me:" %}
+  </p>
+  {% include "job/contacts.html" %}
+{% endblock %}
