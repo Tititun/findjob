@@ -1,0 +1,33 @@
+{% extends 'job/projects/projects_base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+{% trans "NLP experiment" %}
+{% endblock %}
+
+{% block path %}
+/projects/nlp_experiment
+{% endblock %}
+
+{% block project_title %}
+{% trans "NLP experiment" %}
+{% endblock %}
+
+{% block project_content %}
+  <p>
+    <a class="mb-1" href="https://github.com/Tititun/data_cleaner"><img class="me-1" height="25" src="{% static '/job/images/github.png' %}"></a>
+    {% trans "This ongoing project is an attempt to build a NLP classifier for supermarket products using their title. The following techologies have been used:" %}
+    <ul>
+      <li>Backend - Django, Django REST framework</li>
+      <li>Fronend - React, HTML, CSS (Bulma)</li>
+      <li>{% trans "Machine learning: Pytorch, transformers, scikit-learn" %}</li>
+      <li>{% trans "Data handling - pandas, matplotlib" %}</li>
+    </ul>
+  </p>
+  <p>
+    {% trans "The main difficulty of the project is that the data consists of more than 20 languages, so the main component of the classifier is XLMRoberta model - the famous multilingual model trained on more than 100 languages. I fine-tuned this model for the task at hand. I plan to add image, brand and weight/volume information to my ensemble model to achieve better results." %}<br>
+    {% trans "An important part of this project is a data cleaner tool which is used for filtering, cleaning and labeling the data. This is a web tool built with Django. Its interface is shown on the picture below:" %}
+  </p>
+  <img class="example-image" src="{% static "job/images/nlp_experiment.png" %}">
+{% endblock %}

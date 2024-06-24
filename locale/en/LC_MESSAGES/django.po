@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 04:27+0000\n"
+"POT-Creation-Date: 2024-06-24 05:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -231,6 +231,41 @@ msgid ""
 "Internationalization capabilities. Each page is translated with trans-tags "
 "of Django templating language. User can switch the language by using the "
 "language switch in the top-right corner."
+msgstr ""
+
+#: job/templates/job/projects/nlp_experiment.html:6
+#: job/templates/job/projects/nlp_experiment.html:14
+msgid "NLP experiment"
+msgstr ""
+
+#: job/templates/job/projects/nlp_experiment.html:20
+msgid ""
+"This ongoing project is an attempt to build a NLP classifier for supermarket "
+"products using their title. The following techologies have been used:"
+msgstr ""
+
+#: job/templates/job/projects/nlp_experiment.html:24
+msgid "Machine learning: Pytorch, transformers, scikit-learn"
+msgstr ""
+
+#: job/templates/job/projects/nlp_experiment.html:25
+msgid "Data handling - pandas, matplotlib"
+msgstr ""
+
+#: job/templates/job/projects/nlp_experiment.html:29
+msgid ""
+"The main difficulty of the project is that the data consists of more than 20 "
+"languages, so the main component of the classifier is XLMRoberta model - the "
+"famous multilingual model trained on more than 100 languages. I fine-tuned "
+"this model for the task at hand. I plan to add image, brand and weight/"
+"volume information to my ensemble model to achieve better results."
+msgstr ""
+
+#: job/templates/job/projects/nlp_experiment.html:30
+msgid ""
+"An important part of this project is a data cleaner tool which is used for "
+"filtering, cleaning and labeling the data. This is a web tool built with "
+"Django. Its interface is shown on the picture below:"
 msgstr ""
 
 #: job/templates/job/projects/vocabulary_builder.html:20

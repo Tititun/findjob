@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 04:27+0000\n"
+"POT-Creation-Date: 2024-06-24 05:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -219,7 +219,10 @@ msgid ""
 "For solving the image classification problem I used deep convoluted networks "
 "as well as transfer learning. After training eight models I chose the best "
 "of them and combined them using ensemble methods."
-msgstr "Для решения задачи классификации изображений я использовал как глубокие сверточные сети, так и трансферное обучение. После тренировки восьми моделей я выбрал лучшие из них и объединил их при помощи ансамблевых методов."
+msgstr ""
+"Для решения задачи классификации изображений я использовал как глубокие "
+"сверточные сети, так и трансферное обучение. После тренировки восьми моделей "
+"я выбрал лучшие из них и объединил их при помощи ансамблевых методов."
 
 #: job/templates/job/projects/image_classification.html:30
 #, python-format
@@ -261,6 +264,47 @@ msgstr ""
 "интернационализации библиотеки Django. Каждая страница переведена с "
 "использованием тэгов trans. Пользователь может переключать язык при помощи "
 "переключателя в верхнем правом углу каждой страницы."
+
+#: job/templates/job/projects/nlp_experiment.html:6
+#: job/templates/job/projects/nlp_experiment.html:14
+#, fuzzy
+#| msgid "My NLP experiment"
+msgid "NLP experiment"
+msgstr "NLP проект"
+
+#: job/templates/job/projects/nlp_experiment.html:20
+msgid ""
+"This ongoing project is an attempt to build a NLP classifier for supermarket "
+"products using their title. The following techologies have been used:"
+msgstr "Этот текущий проект представляет собой попытку построить NLP-классификатор для продуктов из супермаркетов, используя их название. Используются следующие технологии:"
+
+#: job/templates/job/projects/nlp_experiment.html:24
+#, fuzzy
+#| msgid "Machine learning libraries: tensorflow, scikit-learn"
+msgid "Machine learning: Pytorch, transformers, scikit-learn"
+msgstr "Машинное обучение: Pytorch, transformers, scikit-learn"
+
+#: job/templates/job/projects/nlp_experiment.html:25
+#, fuzzy
+#| msgid "Data handling - pandas, numpy, matplotlib"
+msgid "Data handling - pandas, matplotlib"
+msgstr "Работы с даными - pandas, matplotlib"
+
+#: job/templates/job/projects/nlp_experiment.html:29
+msgid ""
+"The main difficulty of the project is that the data consists of more than 20 "
+"languages, so the main component of the classifier is XLMRoberta model - the "
+"famous multilingual model trained on more than 100 languages. I fine-tuned "
+"this model for the task at hand. I plan to add image, brand and weight/"
+"volume information to my ensemble model to achieve better results."
+msgstr "Главной сложностью этого проекта является то, что данные представлены более чем на 20 языках, в связи с чем была использована известная модель, натренированная на более чем 100 языках - XLMRoberta. Я провел тонкую настройку (fine-tuned) эту модель для поставленной задачи. В дальнейшем я планирую добавить к входным данным информацию о бренде, изображение, вес/объем товара к существующей модели с использованием ансамблевых методов для достижения лучших результатов."
+
+#: job/templates/job/projects/nlp_experiment.html:30
+msgid ""
+"An important part of this project is a data cleaner tool which is used for "
+"filtering, cleaning and labeling the data. This is a web tool built with "
+"Django. Its interface is shown on the picture below:"
+msgstr "Важной частью этого проекта является инструмент для очистки данных, который используется для фильтрации, очистски и обозначения данных. Этот web-инструмент создан с использованием Django, ео интерфейс представлен на изображении ниже:"
 
 #: job/templates/job/projects/vocabulary_builder.html:20
 msgid "This website is located at "
