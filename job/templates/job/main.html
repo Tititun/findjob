@@ -36,7 +36,7 @@
                 <a href="{% url "job:projects" "vocabulary_builder" %}">Vocabulary builder</a> - {% trans "a project to organize vocabulary cards from your Kindle." %}
             </li>
             <li class="mb-1">
-                <a href="#">{% trans "This simple website" %}</a> - {% trans "a basic website built with Django." %}
+                <a href="{% url "job:projects" "job_search" %}">{% trans "This simple website" %}</a> - {% trans "a basic website built with Django." %}
             </li>
             <li class="mb-1">
                 <a href="#">{% trans "Image classification project" %}</a> - {% trans "my little" %} <a href="#">{% trans "university" %}</a>{% trans " project for image classification, built with tensorflow." %}

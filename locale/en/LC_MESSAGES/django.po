@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 02:46+0000\n"
+"POT-Creation-Date: 2024-06-24 03:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,169 +30,192 @@ msgstr ""
 msgid "Job for Danil"
 msgstr ""
 
-#: job/templates/job/main.html:10
+#: job/templates/job/main.html:12
 msgid "Danil is looking for a job"
 msgstr ""
 
-#: job/templates/job/main.html:13
+#: job/templates/job/main.html:15
 msgid "Hi! My name is Danil, and I'm looking for a job in the IT world."
 msgstr ""
 
-#: job/templates/job/main.html:15
+#: job/templates/job/main.html:17
 msgid "My professional skills include:"
 msgstr ""
 
-#: job/templates/job/main.html:17
+#: job/templates/job/main.html:19
 msgid "Programing languages - Python, JavaScript"
 msgstr ""
 
-#: job/templates/job/main.html:18
+#: job/templates/job/main.html:20
 msgid "Web technologies - HTML, CSS"
 msgstr ""
 
-#: job/templates/job/main.html:19
+#: job/templates/job/main.html:21
 msgid "SQL - CRUD-operations, window queries, joins etc."
 msgstr ""
 
-#: job/templates/job/main.html:20
+#: job/templates/job/main.html:22
 msgid "Docker - container management, writing dockerfiles, docker-compose"
 msgstr ""
 
-#: job/templates/job/main.html:21
+#: job/templates/job/main.html:23
 msgid "Git - all the basic operations"
 msgstr ""
 
-#: job/templates/job/main.html:23
+#: job/templates/job/main.html:25
 msgid "Python libraries I have most experience with:"
 msgstr ""
 
-#: job/templates/job/main.html:25
+#: job/templates/job/main.html:27
 msgid "Data handling - pandas, numpy, matplotlib"
 msgstr ""
 
-#: job/templates/job/main.html:26
+#: job/templates/job/main.html:28
 msgid "Web backend - Django"
 msgstr ""
 
-#: job/templates/job/main.html:27
+#: job/templates/job/main.html:29
 msgid "Web scraping - requests, selenium, beautifulsoup"
 msgstr ""
 
-#: job/templates/job/main.html:28
+#: job/templates/job/main.html:30
 msgid "Desktop applications - PyQT"
 msgstr ""
 
-#: job/templates/job/main.html:30
+#: job/templates/job/main.html:32
 msgid ""
 "Apart from that I'm highly interested in machine learning and have some "
 "experience with tensorflow, pytorch and transformers."
 msgstr ""
 
-#: job/templates/job/main.html:31
+#: job/templates/job/main.html:33
 msgid "My most recent pet projects that I have on "
 msgstr ""
 
-#: job/templates/job/main.html:31
+#: job/templates/job/main.html:33
 msgid "my GitHub page"
 msgstr ""
 
-#: job/templates/job/main.html:34
+#: job/templates/job/main.html:36
 msgid "a project to organize vocabulary cards from your Kindle."
 msgstr ""
 
-#: job/templates/job/main.html:37
+#: job/templates/job/main.html:39
 msgid "This simple website"
 msgstr ""
 
-#: job/templates/job/main.html:37
+#: job/templates/job/main.html:39
 msgid "a basic website built with Django."
 msgstr ""
 
-#: job/templates/job/main.html:40
+#: job/templates/job/main.html:42
 msgid "Image classification project"
 msgstr ""
 
-#: job/templates/job/main.html:40
+#: job/templates/job/main.html:42
 msgid "my little"
 msgstr ""
 
-#: job/templates/job/main.html:40
+#: job/templates/job/main.html:42
 msgid "university"
 msgstr ""
 
-#: job/templates/job/main.html:40
+#: job/templates/job/main.html:42
 msgid " project for image classification, built with tensorflow."
 msgstr ""
 
-#: job/templates/job/main.html:43
+#: job/templates/job/main.html:45
 msgid "My NLP experiment"
 msgstr ""
 
-#: job/templates/job/main.html:43
+#: job/templates/job/main.html:45
 msgid ""
 "my modest attempt at multilingual classification of supermarket products."
 msgstr ""
 
-#: job/templates/job/main.html:46
+#: job/templates/job/main.html:48
 msgid ""
 "Apart from that I have much experience in web-scraping, and also built a "
 "couple of Telegram bots."
 msgstr ""
 
-#: job/templates/job/main.html:47
+#: job/templates/job/main.html:49
 msgid "You can read more on my education and previous experience "
 msgstr ""
 
-#: job/templates/job/main.html:47
+#: job/templates/job/main.html:49
 msgid "here"
 msgstr ""
 
-#: job/templates/job/main.html:48
+#: job/templates/job/main.html:50
 msgid "If you have any job you can offer me, please contact me:"
 msgstr ""
 
-#: job/templates/job/main.html:49
+#: job/templates/job/main.html:51
 msgid "my telegram"
 msgstr ""
 
-#: job/templates/job/main.html:50
+#: job/templates/job/main.html:52
 msgid "my email"
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:16
-msgid "This website is located at "
+#: job/templates/job/projects/job_search.html:6
+msgid "Job search website"
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:18
-msgid "is built with the following techologies:"
+#: job/templates/job/projects/job_search.html:14
+msgid "This (job search) website"
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:22
+#: job/templates/job/projects/job_search.html:20
+msgid "This basic website uses bare minimum of:"
+msgstr ""
+
+#: job/templates/job/projects/job_search.html:23
+#: job/templates/job/projects/vocabulary_builder.html:26
 msgid "primarily, Bootstrap library"
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:23
+#: job/templates/job/projects/job_search.html:24
+#: job/templates/job/projects/vocabulary_builder.html:27
 msgid "Database: MySQL"
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:24
-msgid "Deployment: Docker, docker-compose"
+#: job/templates/job/projects/job_search.html:28
+msgid ""
+"The feature that distinguishes this simple website is the use of two "
+"languages - English and Russian. For this purpose I used Django's "
+"Internationalization capabilities. Each page is translated with trans-tags "
+"of Django templating language. User can switch the language by using the "
+"language switch in the top-right corner."
+msgstr ""
+
+#: job/templates/job/projects/vocabulary_builder.html:20
+msgid "This website is located at "
+msgstr ""
+
+#: job/templates/job/projects/vocabulary_builder.html:22
+msgid "is built with the following techologies:"
 msgstr ""
 
 #: job/templates/job/projects/vocabulary_builder.html:28
+msgid "Deployment: Docker, docker-compose"
+msgstr ""
+
+#: job/templates/job/projects/vocabulary_builder.html:32
 msgid ""
 "It is a simple website that is designed to extract vocabulary from a Kindle "
 "device. The tutorial is located at "
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:30
+#: job/templates/job/projects/vocabulary_builder.html:34
 msgid ""
 "It uses web scraping to fetch definitions from online dictionaries and "
 "present the results in a convinient form of cards, with an option to "
 "download the data in csv/tsv formats."
 msgstr ""
 
-#: job/templates/job/projects/vocabulary_builder.html:32
+#: job/templates/job/projects/vocabulary_builder.html:36
 msgid ""
 "Obviously, there is a space for improvements: I plan to add telegram bot for "
 "queezes, add more languages, add social media links etc."

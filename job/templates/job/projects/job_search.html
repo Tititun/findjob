@@ -1,0 +1,31 @@
+{% extends 'job/projects/projects_base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+{% trans "Job search website" %}
+{% endblock %}
+
+{% block path %}
+/projects/job_search
+{% endblock %}
+
+{% block project_title %}
+{% trans "This (job search) website" %}
+{% endblock %}
+
+{% block project_content %}
+  <p>
+    <a class="mb-1" href="https://github.com/Tititun/vocbuilder"><img class="me-1" height="25" src="{% static '/job/images/github.png' %}"></a>
+    {% trans "This basic website uses bare minimum of:" %}
+    <ul>
+      <li>Backend - Django</li>
+      <li>Web: HTML, CSS ({% trans "primarily, Bootstrap library" %})</li>
+      <li>{% trans "Database: MySQL" %}</li>
+    </ul>
+  </p>
+  <p>
+    {% trans "The feature that distinguishes this simple website is the use of two languages - English and Russian. For this purpose I used Django's Internationalization capabilities. Each page is translated with trans-tags of Django templating language. User can switch the language by using the language switch in the top-right corner." %}
+  </p>
+  <img class="w-50 align-self-center mt-3" src="{% static "job/images/job_search.png" %}">
+{% endblock %}
