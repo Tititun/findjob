@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 05:06+0000\n"
+"POT-Creation-Date: 2024-06-24 05:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,101 +62,105 @@ msgstr ""
 msgid "Git - all the basic operations"
 msgstr ""
 
-#: job/templates/job/main.html:25
+#: job/templates/job/main.html:24
+msgid "English - I scored 8.0 in IELTS exam."
+msgstr ""
+
+#: job/templates/job/main.html:26
 msgid "Python libraries I have most experience with:"
 msgstr ""
 
-#: job/templates/job/main.html:27
+#: job/templates/job/main.html:28
 msgid "Data handling - pandas, numpy, matplotlib"
 msgstr ""
 
-#: job/templates/job/main.html:28
+#: job/templates/job/main.html:29
 msgid "Web backend - Django"
 msgstr ""
 
-#: job/templates/job/main.html:29
+#: job/templates/job/main.html:30
 msgid "Web scraping - requests, selenium, beautifulsoup"
 msgstr ""
 
-#: job/templates/job/main.html:30
+#: job/templates/job/main.html:31
 msgid "Desktop applications - PyQT"
 msgstr ""
 
-#: job/templates/job/main.html:32
+#: job/templates/job/main.html:33
 msgid ""
 "Apart from that I'm highly interested in machine learning and have some "
 "experience with tensorflow, pytorch and transformers."
 msgstr ""
 
-#: job/templates/job/main.html:33
+#: job/templates/job/main.html:34
 msgid "My most recent pet projects that I have on "
 msgstr ""
 
-#: job/templates/job/main.html:33
+#: job/templates/job/main.html:34
 msgid "my GitHub page"
 msgstr ""
 
-#: job/templates/job/main.html:36
+#: job/templates/job/main.html:37
 msgid "a project to organize vocabulary cards from your Kindle."
 msgstr ""
 
-#: job/templates/job/main.html:39
+#: job/templates/job/main.html:40
 msgid "This simple website"
 msgstr ""
 
-#: job/templates/job/main.html:39
+#: job/templates/job/main.html:40
 msgid "a basic website built with Django."
 msgstr ""
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 #: job/templates/job/projects/image_classification.html:14
 msgid "Image classification project"
 msgstr ""
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 msgid "my little"
 msgstr ""
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 msgid "university"
 msgstr ""
 
-#: job/templates/job/main.html:42
+#: job/templates/job/main.html:43
 msgid " project for image classification, built with tensorflow."
 msgstr ""
 
-#: job/templates/job/main.html:45
+#: job/templates/job/main.html:46
 msgid "My NLP experiment"
 msgstr ""
 
-#: job/templates/job/main.html:45
+#: job/templates/job/main.html:46
 msgid ""
 "my modest attempt at multilingual classification of supermarket products."
 msgstr ""
 
-#: job/templates/job/main.html:48
+#: job/templates/job/main.html:49
 msgid ""
 "Apart from that I have much experience in web-scraping, and also built a "
 "couple of Telegram bots."
 msgstr ""
 
-#: job/templates/job/main.html:49
+#: job/templates/job/main.html:50
 msgid "You can read more on my education and previous experience "
 msgstr ""
 
-#: job/templates/job/main.html:49
+#: job/templates/job/main.html:50
 msgid "here"
 msgstr ""
 
-#: job/templates/job/main.html:50
+#: job/templates/job/main.html:51
 msgid "If you have any job you can offer me, please contact me:"
 msgstr ""
 
-#: job/templates/job/main.html:51
+#: job/templates/job/main.html:52
 msgid "my telegram"
 msgstr ""
 
-#: job/templates/job/main.html:52
+#: job/templates/job/main.html:53
 msgid "my email"
 msgstr ""
 
