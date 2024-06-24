@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 03:49+0000\n"
+"POT-Creation-Date: 2024-06-24 04:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,6 +109,7 @@ msgid "a basic website built with Django."
 msgstr ""
 
 #: job/templates/job/main.html:42
+#: job/templates/job/projects/image_classification.html:14
 msgid "Image classification project"
 msgstr ""
 
@@ -157,6 +158,48 @@ msgstr ""
 
 #: job/templates/job/main.html:52
 msgid "my email"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:6
+msgid "Image classification"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:20
+msgid ""
+"The project was made for my practice at University where I'm currently "
+"studying. It was a machine learning task, where I needed to classify "
+"supermarket product images into 40 categories. For this purpose I used the "
+"following:"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:22
+msgid "Data analysis tools: pandas, numpy, matplotlib"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:23
+msgid "Machine learning libraries: tensorflow, scikit-learn"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:24
+msgid "Jupyter notebooks for my work presentation"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:25
+msgid ""
+"Web scraping to collect the images from more than 50 supermarkets worldwide "
+"- requests, beautifulsoup, selenium"
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:29
+msgid ""
+"For solving the image classification problem I used deep convoluted networks "
+"as well as transfer learning. After training eight models I chose the best "
+"of them and combined them using ensemble methods."
+msgstr ""
+
+#: job/templates/job/projects/image_classification.html:30
+#, python-format
+msgid "The resulting accuracy was 85%%. The example of images is shown below:"
 msgstr ""
 
 #: job/templates/job/projects/job_search.html:6

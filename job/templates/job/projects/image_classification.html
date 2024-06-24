@@ -1,0 +1,33 @@
+{% extends 'job/projects/projects_base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}
+{% trans "Image classification" %}
+{% endblock %}
+
+{% block path %}
+/projects/image_classification
+{% endblock %}
+
+{% block project_title %}
+  {% trans "Image classification project" %}
+{% endblock %}
+
+{% block project_content %}
+  <p>
+    <a class="mb-1" href="https://github.com/Tititun/image_classification"><img class="me-1" height="25" src="{% static '/job/images/github.png' %}"></a>
+    {% trans "The project was made for my practice at University where I'm currently studying. It was a machine learning task, where I needed to classify supermarket product images into 40 categories. For this purpose I used the following:" %}
+    <ul>
+      <li>{% trans "Data analysis tools: pandas, numpy, matplotlib" %}</li>
+      <li>{% trans "Machine learning libraries: tensorflow, scikit-learn" %}</li>
+      <li>{% trans "Jupyter notebooks for my work presentation" %}</li>
+      <li>{% trans "Web scraping to collect the images from more than 50 supermarkets worldwide - requests, beautifulsoup, selenium" %}</li>
+    </ul>
+  </p>
+  <p>
+    {% trans "For solving the image classification problem I used deep convoluted networks as well as transfer learning. After training eight models I chose the best of them and combined them using ensemble methods." %}<br>
+    {% trans "The resulting accuracy was 85%. The example of images is shown below:" %}
+  </p>
+  <img class="example-image" src="{% static "job/images/image_classification.png" %}">
+{% endblock %}

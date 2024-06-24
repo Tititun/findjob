@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 03:49+0000\n"
+"POT-Creation-Date: 2024-06-24 04:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,6 +115,7 @@ msgid "a basic website built with Django."
 msgstr "базовый вебсайт на Django."
 
 #: job/templates/job/main.html:42
+#: job/templates/job/projects/image_classification.html:14
 msgid "Image classification project"
 msgstr "Проект по классификации изображений"
 
@@ -169,6 +170,62 @@ msgstr "мой телеграм"
 msgid "my email"
 msgstr "моя почта"
 
+#: job/templates/job/projects/image_classification.html:6
+#, fuzzy
+#| msgid "Image classification project"
+msgid "Image classification"
+msgstr "Проект по классификации изображений"
+
+#: job/templates/job/projects/image_classification.html:20
+msgid ""
+"The project was made for my practice at University where I'm currently "
+"studying. It was a machine learning task, where I needed to classify "
+"supermarket product images into 40 categories. For this purpose I used the "
+"following:"
+msgstr ""
+"Этот проект был частью моей курсовой работы в университете, в которм я "
+"прохожу обучение. Это было задание по машинному обучению, где нужно было "
+"классифицировать изображения продуктов из супермаркета на 40 категорий. Для "
+"этой цели я использовал следующее:"
+
+#: job/templates/job/projects/image_classification.html:22
+#, fuzzy
+#| msgid "Data handling - pandas, numpy, matplotlib"
+msgid "Data analysis tools: pandas, numpy, matplotlib"
+msgstr "Работы с даными данными - pandas, numpy, matplotlib"
+
+#: job/templates/job/projects/image_classification.html:23
+msgid "Machine learning libraries: tensorflow, scikit-learn"
+msgstr "Библиотеки машинного обучения: tensorflow, scikit-learn"
+
+#: job/templates/job/projects/image_classification.html:24
+msgid "Jupyter notebooks for my work presentation"
+msgstr "Блокнот Jupyter для презентации работы"
+
+#: job/templates/job/projects/image_classification.html:25
+#, fuzzy
+#| msgid ""
+#| "Web scraping to collect the images from more than 50 supermarkets "
+#| "worldwide - requests, beautifulsoup,"
+msgid ""
+"Web scraping to collect the images from more than 50 supermarkets worldwide "
+"- requests, beautifulsoup, selenium"
+msgstr ""
+"Web-скрэйпинг для сбора изображений с более чем 50 супермаркетов по всему "
+"миру - requests, beautifulsoup, selenium"
+
+#: job/templates/job/projects/image_classification.html:29
+msgid ""
+"For solving the image classification problem I used deep convoluted networks "
+"as well as transfer learning. After training eight models I chose the best "
+"of them and combined them using ensemble methods."
+msgstr "Для решения задачи классификации изображений я использовал как глубокие сверточные сети, так и трансферное обучение. После тренировки восьми моделей я выбрал лучшие из них и объединил их при помощи ансамблевых методов."
+
+#: job/templates/job/projects/image_classification.html:30
+#, python-format
+msgid "The resulting accuracy was 85%%. The example of images is shown below:"
+msgstr "Итоговая точность составила 85%. Примеры изображений приведены ниже:"
+
 #: job/templates/job/projects/job_search.html:6
 msgid "Job search website"
 msgstr "Поиск работы"
@@ -198,7 +255,12 @@ msgid ""
 "Internationalization capabilities. Each page is translated with trans-tags "
 "of Django templating language. User can switch the language by using the "
 "language switch in the top-right corner."
-msgstr "Отличительной особенностью этого сайта является использование двух языков - английского и русского. Для этого я воспользовался функцией интернационализации библиотеки Django. Каждая страница переведена с использованием тэгов trans. Пользователь может переключать язык при помощи переключателя в верхнем правом углу каждой страницы."
+msgstr ""
+"Отличительной особенностью этого сайта является использование двух языков - "
+"английского и русского. Для этого я воспользовался функцией "
+"интернационализации библиотеки Django. Каждая страница переведена с "
+"использованием тэгов trans. Пользователь может переключать язык при помощи "
+"переключателя в верхнем правом углу каждой страницы."
 
 #: job/templates/job/projects/vocabulary_builder.html:20
 msgid "This website is located at "
